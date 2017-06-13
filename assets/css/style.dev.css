@@ -1,0 +1,22 @@
+/* line 1, assets\less\common.less */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* line 2, assets\less\common.less */
+body {
+  font-size: 12px;
+}
+/* line 1, assets\less\style.less */
+h1 {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+/* line 4, assets\less\style.less */
+h2 {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  border: 3px #F00 solid;
+}

@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/kimhojeong/profolio/issues"
   },
-  "homepage": "https://github.com/kimhojeong/profolio#readme"
+  "homepage": "https://github.com/kimhojeong/profolio#readme",
+  "devDependencies": {
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-serve": "^0.1.6"
+  }
 }
