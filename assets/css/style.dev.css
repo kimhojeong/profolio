@@ -20,3 +20,7 @@ h2 {
   *zoom: 1;
   border: 3px #F00 solid;
 }
+/* line 8, assets\less\style.less */
+h3 {
+  display: block;
+}
