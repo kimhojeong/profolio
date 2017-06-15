@@ -6,6 +6,7 @@
 /* line 2, assets\less\common.less */
 body {
   font-size: 14px;
+  font-family: 'Roboto slab, reguler', '맑은고딕';
 }
 /* line 3, assets\less\common.less */
 ul,
@@ -18,20 +19,16 @@ img {
   vertical-align: top;
 }
 /* line 5, assets\less\common.less */
-fieldset {
-  border: 0;
-}
-/* line 6, assets\less\common.less */
 input,
 button {
   vertical-align: middle;
 }
-/* line 7, assets\less\common.less */
+/* line 6, assets\less\common.less */
 a {
   text-decoration: none;
   color: #000;
 }
-/* line 8, assets\less\common.less */
+/* line 7, assets\less\common.less */
 i,
 em,
 cite {
@@ -99,8 +96,8 @@ body {
 /* line 45, assets\less\main.less */
 #wrap section .sec-bar .main-logo {
   position: absolute;
-  left: 0;
-  top: 0;
+  top: -7px;
+  left: -320px;
   width: 155px;
   height: 59px;
   margin-left: 320px;
