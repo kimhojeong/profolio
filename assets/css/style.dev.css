@@ -5,22 +5,34 @@
 }
 /* line 2, assets\less\common.less */
 body {
-  font-size: 12px;
+  font-size: 14px;
 }
-/* line 1, assets\less\style.less */
-h1 {
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
+/* line 3, assets\less\common.less */
+ul,
+ol,
+li {
+  list-style: none;
 }
-/* line 4, assets\less\style.less */
-h2 {
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-  border: 3px #F00 solid;
+/* line 4, assets\less\common.less */
+img {
+  vertical-align: top;
 }
-/* line 8, assets\less\style.less */
-h3 {
-  display: black;
+/* line 5, assets\less\common.less */
+fieldset {
+  border: 0;
+}
+/* line 6, assets\less\common.less */
+input,
+button {
+  vertical-align: middle;
+}
+/* line 7, assets\less\common.less */
+a {
+  text-decoration: none;
+}
+/* line 8, assets\less\common.less */
+i,
+em,
+cite {
+  font-style: normal;
 }
