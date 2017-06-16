@@ -4,7 +4,7 @@ height: 100%;}
 #wrap{
     width: 100%;
     height: 100%;
-    background-image: url(../images/main-m.jpg);
+    background-image: url('../images/main-m.jpg');
     background-size: cover;
     background-position: center;
     header{
@@ -58,16 +58,89 @@ height: 100%;}
                 }
             } //main-logo
             .main-bar{
-                width: 700px;
+                width: 775px;
                 height: 50px;
                 outline: 1px solid #fff;
-                color: @sub-color;
+                float: right;
+                margin-top: 50px;
+                ul{
+                    li{
+                        display: inline-block;
+                        padding : 10px;
+                        line-height: 10px;
+                        &:first-child a{
+                            background-image: none;
+                        }
+                        a{
+                            color: @sub-color;
+                            text-transform: uppercase;
+                            padding-left: 50px;
+                            background-image: url('../images/Ellipse.png');
+                            background-repeat: no-repeat;
+                            background-position: 0 5px;
+                        }
+                    }
+                } //ul
             }//.main-bar
-            .sec-slogan{
-                width: 700px;
-                height: 270px;
-                outline: 1px solid #fff;
-            }
         } //.sec-bar
+        .sec-slogan{
+            width: 680px;
+            height: 263px;
+            outline: 1px solid #FFF;
+            margin: 0 auto;
+            margin-top: 14%;
+            position: relative;
+            text-align: center;
+            .c-logo{
+                position: absolute;
+                left: 42%;
+            } //.c-logo
+            .m-title{
+                div{
+                    color:  @sub-color;
+                }
+                .line-up{
+                    width: 680px;
+                    height: 2px;
+                    background-color: @sub-color;
+                    position: absolute;
+                    top: 52%;
+                    } //.line-up
+                .m-t{
+                    font-size: 42px;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    text-align: center;
+                    position: absolute;
+                    top: 55%;
+                    left: 3%;
+                }
+                .line-down{
+                    width: 680px;
+                    height: 2px;
+                    background-color: @sub-color;
+                    position: absolute;
+                    top:83%;
+                    }
+            } //.m-title
+            .m-d{
+                font-size: 18px;
+                font-weight: 500;
+                color: @sub-color;
+                position: absolute;
+                top: 85%;
+                left: 36%;
+            } //.m-d
+        } //.sec-slogan
+        .arrow{
+            .arrow-pre{
+                margin-left: 10px;
+            }
+            .arrow-nex{
+                margin-right: 10px;
+                position: absolute;
+                right: 0;
+            }
+        }
     } //section
 } //#wrap
