@@ -1,34 +1,35 @@
-/* line 1, assets\less\common.less */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+/* line 3, assets\less\common.less */
 * {
   margin: 0;
   padding: 0;
 }
-/* line 2, assets\less\common.less */
+/* line 4, assets\less\common.less */
 body {
   font-size: 14px;
   font-family: 'Roboto slab, reguler', '맑은고딕';
 }
-/* line 3, assets\less\common.less */
+/* line 5, assets\less\common.less */
 ul,
 ol,
 li {
   list-style: none;
 }
-/* line 4, assets\less\common.less */
+/* line 6, assets\less\common.less */
 img {
   vertical-align: top;
 }
-/* line 5, assets\less\common.less */
+/* line 7, assets\less\common.less */
 input,
 button {
   vertical-align: middle;
 }
-/* line 6, assets\less\common.less */
+/* line 8, assets\less\common.less */
 a {
   text-decoration: none;
   color: #000;
 }
-/* line 7, assets\less\common.less */
+/* line 9, assets\less\common.less */
 i,
 em,
 cite {
@@ -149,7 +150,7 @@ body {
 /* line 94, assets\less\main.less */
 #wrap section .sec-slogan .c-logo {
   position: absolute;
-  left: 42%;
+  left: 41.6177%;
 }
 /* line 99, assets\less\main.less */
 #wrap section .sec-slogan .m-title div {
@@ -180,8 +181,9 @@ body {
   background-color: #FFFFFF;
   position: absolute;
   top: 83%;
+  left: 0;
 }
-/* line 126, assets\less\main.less */
+/* line 127, assets\less\main.less */
 #wrap section .sec-slogan .m-d {
   font-size: 18px;
   font-weight: 500;
@@ -190,15 +192,18 @@ body {
   top: 85%;
   left: 36%;
 }
-/* line 136, assets\less\main.less */
+/* line 137, assets\less\main.less */
 #wrap section .arrow .arrow-pre {
   margin-left: 10px;
+  position: absolute;
+  top: 55%;
 }
-/* line 139, assets\less\main.less */
+/* line 142, assets\less\main.less */
 #wrap section .arrow .arrow-nex {
   margin-right: 10px;
   position: absolute;
   right: 0;
+  top: 55%;
 }
 /* line 1, assets\less\about-us.less */
 html,
@@ -298,4 +303,42 @@ body {
   background-image: url('../images/Ellipse.png');
   background-repeat: no-repeat;
   background-position: 0 5px;
+}
+/* line 83, assets\less\about-us.less */
+#us-wrap section .sec-two {
+  width: 100%;
+  height: 1382px;
+  background-color: #CCC;
+  position: absolute;
+  top: 50%;
+}
+/* line 89, assets\less\about-us.less */
+#us-wrap section .sec-two .m-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 130px;
+  color: #614a3d;
+}
+/* line 94, assets\less\about-us.less */
+#us-wrap section .sec-two .m-title span {
+  display: block;
+}
+/* line 97, assets\less\about-us.less */
+#us-wrap section .sec-two .m-title span:first-child {
+  font-size: 30px;
+}
+/* line 100, assets\less\about-us.less */
+#us-wrap section .sec-two .m-title span + span {
+  color: #79685e;
+  font-size: 16px;
+  margin-top: 18px;
+}
+/* line 105, assets\less\about-us.less */
+#us-wrap section .sec-two .m-title .s-logo {
+  margin-top: 11px;
+}
+/* line 108, assets\less\about-us.less */
+#us-wrap section .sec-two .m-title span:last-child {
+  font-size: 16px;
+  color: #614a3d;
 }
