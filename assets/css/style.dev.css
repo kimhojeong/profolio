@@ -307,38 +307,135 @@ body {
 /* line 83, assets\less\about-us.less */
 #us-wrap section .sec-two {
   width: 100%;
-  height: 1382px;
-  background-color: #CCC;
+  height: 1500px;
   position: absolute;
   top: 50%;
+  color: #614a3d;
 }
 /* line 89, assets\less\about-us.less */
 #us-wrap section .sec-two .m-title {
   text-align: center;
   text-transform: uppercase;
   margin-top: 130px;
-  color: #614a3d;
 }
-/* line 94, assets\less\about-us.less */
+/* line 93, assets\less\about-us.less */
 #us-wrap section .sec-two .m-title span {
   display: block;
 }
-/* line 97, assets\less\about-us.less */
+/* line 96, assets\less\about-us.less */
 #us-wrap section .sec-two .m-title span:first-child {
   font-size: 30px;
 }
-/* line 100, assets\less\about-us.less */
+/* line 99, assets\less\about-us.less */
 #us-wrap section .sec-two .m-title span + span {
   color: #79685e;
   font-size: 16px;
   margin-top: 18px;
 }
-/* line 105, assets\less\about-us.less */
+/* line 104, assets\less\about-us.less */
 #us-wrap section .sec-two .m-title .s-logo {
   margin-top: 11px;
 }
-/* line 108, assets\less\about-us.less */
+/* line 107, assets\less\about-us.less */
 #us-wrap section .sec-two .m-title span:last-child {
+  font-size: 16px;
+  color: #614a3d;
+}
+/* line 112, assets\less\about-us.less */
+#us-wrap section .sec-two .tex-b {
+  font-size: 25px;
+  width: 1280px;
+  margin: 0 auto;
+  outline: 1px solid #000;
+  margin-top: 130px;
+}
+/* line 118, assets\less\about-us.less */
+#us-wrap section .sec-two .tex-b ul {
+  text-align: center;
+}
+/* line 120, assets\less\about-us.less */
+#us-wrap section .sec-two .tex-b ul li {
+  width: 100%;
+  display: inline-block;
+}
+/* line 123, assets\less\about-us.less */
+#us-wrap section .sec-two .tex-b ul li div {
+  width: 50%;
+  float: left;
+  margin: 20px;
+  padding-top: 35px;
+}
+/* line 128, assets\less\about-us.less */
+#us-wrap section .sec-two .tex-b ul li div span {
+  width: 100%;
+  display: block;
+  padding-top: 10px;
+}
+/* line 133, assets\less\about-us.less */
+#us-wrap section .sec-two .tex-b ul li div p {
+  font-size: 14px;
+  width: 454px;
+  height: 65px;
+  outline: 1px solid #000;
+  margin-left: 91px;
+}
+/* line 141, assets\less\about-us.less */
+#us-wrap section .sec-two .tex-b ul li img {
+  float: right;
+  margin-top: 30px;
+}
+/* line 145, assets\less\about-us.less */
+#us-wrap section .sec-two .tex-b ul li .middle-box {
+  width: 50%;
+  float: right;
+}
+/* line 150, assets\less\about-us.less */
+#us-wrap section .sec-two .tex-b ul .m-t {
+  font-size: 14px;
+  width: 454px;
+  height: 65px;
+  outline: 1px solid #000;
+}
+/* line 159, assets\less\about-us.less */
+#us-wrap section .black-pic {
+  width: 100%;
+  position: absolute;
+  top: 210%;
+}
+/* line 164, assets\less\about-us.less */
+#us-wrap section .sec-three {
+  width: 100%;
+  height: 1000px;
+  position: absolute;
+  top: 248%;
+  background-color: #CCC;
+}
+/* line 170, assets\less\about-us.less */
+#us-wrap section .sec-three .m-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 130px;
+}
+/* line 174, assets\less\about-us.less */
+#us-wrap section .sec-three .m-title span {
+  display: block;
+}
+/* line 177, assets\less\about-us.less */
+#us-wrap section .sec-three .m-title span:first-child {
+  font-size: 30px;
+}
+/* line 180, assets\less\about-us.less */
+#us-wrap section .sec-three .m-title span + span {
+  color: #79685e;
+  font-size: 16px;
+  margin-top: 18px;
+}
+/* line 185, assets\less\about-us.less */
+#us-wrap section .sec-three .m-title .s-logo {
+  margin-top: 11px;
+}
+/* line 188, assets\less\about-us.less */
+#us-wrap section .sec-three .m-title span:last-child {
   font-size: 16px;
   color: #614a3d;
 }
