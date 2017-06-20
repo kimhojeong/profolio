@@ -37,17 +37,14 @@ height: 100%;}
         width: 100%;
         .sec-bar{
             width: 1280px;
-            height: 59px;
+            height: 70px;
             margin: 0 auto;
             position: relative;
             .main-logo{
-                position: absolute;
-                top: -7px;
-                left: -320px;
+                float: left;
                 display: inline-block;
                 width: 155px;
                 height: 59px;
-                margin-left: 320px;
                 margin-top:52px;
                 display: inline-block;
                 img{
@@ -90,6 +87,7 @@ height: 100%;}
                 text-align: center;
                 text-transform: uppercase;
                 margin-top: 130px;
+                margin-bottom: 100px;
                 span{
                     display: block;
                 }
@@ -124,11 +122,14 @@ height: 100%;}
                             width: 50%;
                             float: left;
                             margin: 20px;
-                            padding-top: 35px;
                             span{
                                 width: 100%;
                                 display: block;
                                 padding-top: 10px;
+                            }
+                            .line-m{
+                                outline: 1px solid #000;
+                                margin-top: 5px;
                             }
                             p{
                                 font-size: 14px;
@@ -138,13 +139,16 @@ height: 100%;}
                                 margin-left: 91px;
                             }
                         } //div
-                        img{
+                        .r-pic img{
                             float: right;
                             margin-top: 30px;
                         }
                         .middle-box{
                             width: 50%;
                             float: right;
+                        }
+                        .m-pic img{
+                            float: left;
                         }
                     } //li
                     .m-t{
@@ -163,33 +167,66 @@ height: 100%;}
         } //.black-pic
         .sec-three{
             width: 100%;
-            height: 1000px;
             position: absolute;
-            top: 248%;
-            background-color: #CCC;
-            .m-title{
-                text-align: center;
-                text-transform: uppercase;
-                margin-top: 130px;
-                span{
-                    display: block;
-                }
-                span:first-child{
-                    font-size: 30px;
-                }
-                span + span{
-                    color: @second-color;
-                    font-size: 16px;
-                    margin-top: 18px;
-                }
-                .s-logo{
-                    margin-top: 11px;
-                }
-                span:last-child{
-                    font-size: 16px;
-                    color: @main-color;
-                }
-            } //.m-title
-        }
+            top: 246%;
+            outline: 1px solid #000;
+                .sec-incon{
+                    width: 1280px;
+                    height: 100%;
+                    margin: 0 auto;
+                    outline: 1px solid #000;
+                    .m-title{
+                        text-align: center;
+                        text-transform: uppercase;
+                        margin-top: 130px;
+                        margin-bottom: 100px;
+                        span{
+                            display: block;
+                        }
+                        span:first-child{
+                            font-size: 30px;
+                            color: @main-color;
+                        }
+                        span + span{
+                            color: @second-color;
+                            font-size: 16px;
+                            margin-top: 18px;
+                        }
+                        .s-logo{
+                            margin-top: 11px;
+                        }
+                        span:last-child{
+                            font-size: 16px;
+                            color: @main-color;
+                        }
+                    } //.m-title
+                    .sec-map{
+                        h3{
+                            color: @main-color;
+                            font-size: 25px;
+                            font-weight: 500;
+                            text-transform: uppercase;
+                            margin-bottom: 10px;
+                        }
+                    #map {
+                        height: 450px;
+                        width: 1280px;
+                    }
+                } //.sec-map
+                .sec-shop{
+                    margin-top: 100px;
+                    div{
+                        width: 374px;
+                        height: 356px;
+                        outline: 1px solid #000;
+                        overflow: hidden;
+                        display: inline-block;
+                        span{
+                            display: block;
+                        }
+                    }
+                } //.sec-shop
+            } //.sec-incon
+        } //.sec-three
     } //section
 } //us-wrap

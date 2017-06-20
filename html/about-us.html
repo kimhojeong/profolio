@@ -6,7 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="../assets/css/style.min.css">
   <title>Document</title>
+  <script>
+    function initMap() {
+      var uluru = {lat:-8.301112, lng: 115.087985};
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 4,
+        center: uluru
+      });
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+      });
+    }
+  </script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUsBL6j2kp_VFWeLWWW4B37N6aU_vWwQc&callback=initMap">
+  </script>
 </head>
+
 <body class="about-us">
     <div id="us-wrap">
         <header>
@@ -48,16 +65,16 @@
                             <div>
                                 <span>01</span>
                                 <span>로스팅 원칙 주의</span>
-                                <span></span>
+                                <span class="line-m"><img src="../assets/images/line.png" alt=""></span>
                                 <p>오직 빈스커피만이 추구하는 완벽한 커피를 위한 선 로스팅후블렌딩 방식을 통해 산지별 생두 고유의 풍부한 향과 맛을 담았습니다.</p>
                             </div>
-                            <img src="../assets/images/our-pic1.png" alt="">
+                            <span class="r-pic"><img src="../assets/images/our-pic1.png" alt=""></span>
                         </li>
                         <li>
-                            <div class="midde-box">
+                            <div class="middle-box">
                                 <span>02</span>
                                 <span>커피 그이상의 가치</span>
-                                <span></span>
+                                <span class="line-m"><img src="../assets/images/line.png" alt=""></span>
                                 <p>신선한 커피 한잔과 함께 즐기는 다양한 디저트, 좋은 사람들과함께 하는 여유로운 시간과 향기로운 문화를 전합니다.</p>
                             </div>
                             <span class="m-pic"><img src="../assets/images/our-pic2.png" alt=""></span>
@@ -66,21 +83,44 @@
                             <div>
                                 <span>03</span>
                                 <span>정직과 창의, 열정과 성장, 그리고 도전</span>
-                                <span></span>
+                                <span class="line-m"><img src="../assets/images/line.png" alt=""></span>
                                 <p>가맹점 파트너, 직원들과 창의적인 사고, 열정과 도전을함께 할 수 있는 브랜드로 성공을 추구합니다.</p>
                             </div>
-                            <img src="../assets/images/our-pic3.png" alt="">
+                            <span class="r-pic"><img src="../assets/images/our-pic3.png" alt=""></span>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="black-pic"><img src="../assets/images/middel-pic.png" alt=""></div>
             <div class="sec-three">
-                <div class="m-title">
-                    <span>head office location</span>
-                    <span>wellcome to beans coffee rosters</span>
-                    <span class="s-logo"><img src="../assets/images/middle-logo.png" alt=""></span>
-                    <span>찾아오시는길</span>
+                <div class="sec-incon">
+                    <div class="m-title">
+                        <span>head office location</span>
+                        <span>wellcome to beans coffee rosters</span>
+                        <span class="s-logo"><img src="../assets/images/middle-logo.png" alt=""></span>
+                        <span>찾아오시는길</span>
+                    </div>
+                    <div class="sec-map">
+                        <h3>location</h3>
+                        <div id="map"></div>
+                    </div>
+                    <div class="sec-shop">
+                        <div>
+                            <span><img src="../assets/images/shop1.png" alt=""></span>
+                            <span>합정동 뒷골목, 지게차가 드나들던 맥주 창고가 빈브라더스 첫 매장이 되었습니다. 간판 없이도 커피 볶는 향에 멈추게 되는
+                                건물 안으로 들어가면, 높은 천장 아래 펼쳐진 360도 오픈 바를마주합니다</span>
+                        </div>
+                        <div>
+                            <span><img src="../assets/images/shop1.png" alt=""></span>
+                            <span>합정동 뒷골목, 지게차가 드나들던 맥주 창고가 빈브라더스 첫 매장이 되었습니다. 간판 없이도 커피 볶는 향에 멈추게 되는
+                                건물 안으로 들어가면, 높은 천장 아래 펼쳐진 360도 오픈 바를마주합니다</span>
+                        </div>
+                        <div>
+                            <span><img src="../assets/images/shop1.png" alt=""></span>
+                            <span>합정동 뒷골목, 지게차가 드나들던 맥주 창고가 빈브라더스 첫 매장이 되었습니다. 간판 없이도 커피 볶는 향에 멈추게 되는
+                                건물 안으로 들어가면, 높은 천장 아래 펼쳐진 360도 오픈 바를마주합니다</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
