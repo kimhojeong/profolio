@@ -596,6 +596,44 @@ body {
   background-repeat: no-repeat;
   background-position: 0 5px;
 }
+/* line 83, assets\less\store.less */
+#store-wrap section .sec-two {
+  width: 100%;
+  height: 1500px;
+  position: absolute;
+  top: 50%;
+  color: #614a3d;
+}
+/* line 89, assets\less\store.less */
+#store-wrap section .sec-two .m-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 130px;
+  margin-bottom: 100px;
+}
+/* line 94, assets\less\store.less */
+#store-wrap section .sec-two .m-title span {
+  display: block;
+}
+/* line 97, assets\less\store.less */
+#store-wrap section .sec-two .m-title span:first-child {
+  font-size: 30px;
+}
+/* line 100, assets\less\store.less */
+#store-wrap section .sec-two .m-title span + span {
+  color: #79685e;
+  font-size: 16px;
+  margin-top: 18px;
+}
+/* line 105, assets\less\store.less */
+#store-wrap section .sec-two .m-title .s-logo {
+  margin-top: 11px;
+}
+/* line 108, assets\less\store.less */
+#store-wrap section .sec-two .m-title span:last-child {
+  font-size: 16px;
+  color: #614a3d;
+}
 /* line 1, assets\less\product.less */
 html,
 body {
@@ -701,32 +739,203 @@ body {
   color: #614a3d;
 }
 /* line 86, assets\less\product.less */
-#product-wrap section .sec-two .m-title {
+#product-wrap section .sec-two .bean-b {
+  width: 1280px;
+  height: 100%;
+  outline: 1px solid #000;
+  margin: 0 auto;
+}
+/* line 91, assets\less\product.less */
+#product-wrap section .sec-two .bean-b .m-title {
   text-align: center;
   text-transform: uppercase;
   margin-top: 130px;
   margin-bottom: 100px;
 }
-/* line 91, assets\less\product.less */
-#product-wrap section .sec-two .m-title span {
+/* line 96, assets\less\product.less */
+#product-wrap section .sec-two .bean-b .m-title span {
   display: block;
 }
-/* line 94, assets\less\product.less */
-#product-wrap section .sec-two .m-title span:first-child {
+/* line 99, assets\less\product.less */
+#product-wrap section .sec-two .bean-b .m-title span:first-child {
   font-size: 30px;
 }
-/* line 97, assets\less\product.less */
-#product-wrap section .sec-two .m-title span + span {
+/* line 102, assets\less\product.less */
+#product-wrap section .sec-two .bean-b .m-title span + span {
   color: #79685e;
   font-size: 16px;
   margin-top: 18px;
 }
-/* line 102, assets\less\product.less */
-#product-wrap section .sec-two .m-title .s-logo {
+/* line 107, assets\less\product.less */
+#product-wrap section .sec-two .bean-b .m-title .s-logo {
   margin-top: 11px;
 }
-/* line 105, assets\less\product.less */
-#product-wrap section .sec-two .m-title span:last-child {
+/* line 110, assets\less\product.less */
+#product-wrap section .sec-two .bean-b .m-title span:last-child {
+  font-size: 16px;
+  color: #614a3d;
+}
+/* line 116, assets\less\product.less */
+#product-wrap section .sec-two .bean-b .beans .line-first {
+  margin-bottom: 60px;
+}
+/* line 118, assets\less\product.less */
+#product-wrap section .sec-two .bean-b .beans .line-first div {
+  display: inline-block;
+  margin-left: 36px;
+}
+/* line 121, assets\less\product.less */
+#product-wrap section .sec-two .bean-b .beans .line-first div .box-gray {
+  width: 128px;
+  height: 124px;
+  background-color: #4c4c4d;
+  display: inline-block;
+  position: absolute;
+}
+/* line 128, assets\less\product.less */
+#product-wrap section .sec-two .bean-b .beans .line-first div .b-img {
+  position: relative;
+}
+/* line 133, assets\less\product.less */
+#product-wrap section .sec-two .bean-b .beans .line-second {
+  margin-bottom: 60px;
+}
+/* line 135, assets\less\product.less */
+#product-wrap section .sec-two .bean-b .beans .line-second div {
+  display: inline-block;
+  margin-left: 36px;
+}
+/* line 1, assets\less\blog.less */
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+/* line 4, assets\less\blog.less */
+#blog-wrap {
+  width: 100%;
+  height: 50%;
+  background-image: url('../images/blog.png');
+  background-size: cover;
+  background-position: center;
+}
+/* line 10, assets\less\blog.less */
+#blog-wrap header {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #FFFFFF;
+}
+/* line 14, assets\less\blog.less */
+#blog-wrap header .menu {
+  width: 1280px;
+  height: 50px;
+  margin: 0 auto;
+}
+/* line 18, assets\less\blog.less */
+#blog-wrap header .menu ul {
+  height: 50px;
+  float: right;
+}
+/* line 21, assets\less\blog.less */
+#blog-wrap header .menu ul li {
+  display: inline-block;
+  line-height: 50px;
+  padding-right: 20px;
+}
+/* line 25, assets\less\blog.less */
+#blog-wrap header .menu ul li a {
+  display: inline-block;
+  width: 14px;
+}
+/* line 28, assets\less\blog.less */
+#blog-wrap header .menu ul li a img {
+  vertical-align: middle;
+}
+/* line 36, assets\less\blog.less */
+#blog-wrap section {
+  width: 100%;
+}
+/* line 38, assets\less\blog.less */
+#blog-wrap section .sec-bar {
+  width: 1280px;
+  height: 70px;
+  margin: 0 auto;
+  position: relative;
+}
+/* line 43, assets\less\blog.less */
+#blog-wrap section .sec-bar .main-logo {
+  float: left;
+  width: 155px;
+  height: 59px;
+  margin-top: 52px;
+  display: inline-block;
+}
+/* line 50, assets\less\blog.less */
+#blog-wrap section .sec-bar .main-logo img {
+  width: 100%;
+  height: 100%;
+}
+/* line 55, assets\less\blog.less */
+#blog-wrap section .sec-bar .main-bar {
+  width: 775px;
+  height: 50px;
+  float: right;
+  margin-top: 50px;
+}
+/* line 61, assets\less\blog.less */
+#blog-wrap section .sec-bar .main-bar ul li {
+  display: inline-block;
+  padding: 10px;
+  line-height: 10px;
+}
+/* line 65, assets\less\blog.less */
+#blog-wrap section .sec-bar .main-bar ul li:first-child a {
+  background-image: none;
+}
+/* line 68, assets\less\blog.less */
+#blog-wrap section .sec-bar .main-bar ul li a {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding-left: 50px;
+  background-image: url('../images/Ellipse.png');
+  background-repeat: no-repeat;
+  background-position: 0 5px;
+}
+/* line 80, assets\less\blog.less */
+#blog-wrap section .sec-two {
+  width: 100%;
+  height: 1500px;
+  position: absolute;
+  top: 50%;
+  color: #614a3d;
+}
+/* line 86, assets\less\blog.less */
+#blog-wrap section .sec-two .m-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 130px;
+  margin-bottom: 100px;
+}
+/* line 91, assets\less\blog.less */
+#blog-wrap section .sec-two .m-title span {
+  display: block;
+}
+/* line 94, assets\less\blog.less */
+#blog-wrap section .sec-two .m-title span:first-child {
+  font-size: 30px;
+}
+/* line 97, assets\less\blog.less */
+#blog-wrap section .sec-two .m-title span + span {
+  color: #79685e;
+  font-size: 16px;
+  margin-top: 18px;
+}
+/* line 102, assets\less\blog.less */
+#blog-wrap section .sec-two .m-title .s-logo {
+  margin-top: 11px;
+}
+/* line 105, assets\less\blog.less */
+#blog-wrap section .sec-two .m-title span:last-child {
   font-size: 16px;
   color: #614a3d;
 }
