@@ -791,16 +791,18 @@ body {
   background-color: #4c4c4d;
   display: inline-block;
   position: absolute;
+  top: 41px;
+  left: 170px;
 }
-/* line 128, assets\less\product.less */
+/* line 130, assets\less\product.less */
 #product-wrap section .sec-two .bean-b .beans .line-first div .b-img {
   position: relative;
 }
-/* line 133, assets\less\product.less */
+/* line 135, assets\less\product.less */
 #product-wrap section .sec-two .bean-b .beans .line-second {
   margin-bottom: 60px;
 }
-/* line 135, assets\less\product.less */
+/* line 137, assets\less\product.less */
 #product-wrap section .sec-two .bean-b .beans .line-second div {
   display: inline-block;
   margin-left: 36px;
