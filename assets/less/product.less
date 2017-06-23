@@ -115,20 +115,58 @@ height: 100%;}
                 .beans{
                     .line-first{
                         margin-bottom: 60px;
+                        position: relative;
                         div{
                             display: inline-block;
-                            margin-left: 36px;
-                            .box-gray{
-                                width: 128px;
+                            margin-left: 35px;
+                            .w-line{
+                                width: 181px;
+                                height: 161px;
+                                border: 1px solid #FFF;
+                                display: inline-block;
+                                position: absolute;
+                                top: 10px;
+                                left: 51px;
+                            }
+                            .box-a{
+                                width: 145px;
                                 height: 124px;
                                 background-color: #4c4c4d;
                                 display: inline-block;
                                 position: absolute;
-                                top: 41px;
-                                left:170px;
+                                top: 29px;
+                                left:68px;
+                                z-index: -1;
                             }
+                            .txt{
+                                width: 140px;
+                                height: 100px;
+                                font-size: 12px;
+                                color: #96b3ca;
+                                outline: 1px solid #F00;
+                                position: absolute;
+                                top: 50px;
+                                text-transform: uppercase;
+                                text-align: center;
+                                span{
+                                    display: block;
+                                }
+                                .title{
+                                    font-size: 18px;
+                                    margin-bottom: 4px;
+                                }
+                                div{
+                                    .sub-t{
+                                        margin-bottom: 11px;
+                                        display: inline-block;
+                                        padding: 0 20px;
+                                        background-image: url(../assets/images/line.png);
+                                    }                                    
+                                }
+                            } //.txt
                             .b-img{
                                 position: relative;
+                                z-index: -5;
                             }
                         } //div
                     } //.line-first
