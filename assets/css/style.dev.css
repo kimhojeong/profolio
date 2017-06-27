@@ -35,6 +35,23 @@ em,
 cite {
   font-style: normal;
 }
+/* line 1, assets\less\footer.less */
+footer {
+  margin-top: 2900px;
+  position: relative;
+}
+/* line 5, assets\less\footer.less */
+footer .upper .f_logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/* line 11, assets\less\footer.less */
+footer .bottom {
+  width: 100%;
+  height: 60px;
+  background-color: #0f0b05;
+}
 /* line 1, assets\less\main.less */
 html,
 body {
@@ -828,22 +845,27 @@ body {
   margin-bottom: 4px;
 }
 /* line 159, assets\less\product.less */
+#product-wrap section .sec-two .bean-b .beans .line-first div .txt div .i-line {
+  padding-left: 20px;
+  background-image: url(../assets/images/line.png);
+}
+/* line 163, assets\less\product.less */
 #product-wrap section .sec-two .bean-b .beans .line-first div .txt div .sub-t {
   margin-bottom: 11px;
   display: inline-block;
   padding: 0 20px;
   background-image: url(../assets/images/line.png);
 }
-/* line 167, assets\less\product.less */
+/* line 171, assets\less\product.less */
 #product-wrap section .sec-two .bean-b .beans .line-first div .b-img {
   position: relative;
   z-index: -5;
 }
-/* line 173, assets\less\product.less */
+/* line 177, assets\less\product.less */
 #product-wrap section .sec-two .bean-b .beans .line-second {
   margin-bottom: 60px;
 }
-/* line 175, assets\less\product.less */
+/* line 179, assets\less\product.less */
 #product-wrap section .sec-two .bean-b .beans .line-second div {
   display: inline-block;
   margin-left: 36px;
