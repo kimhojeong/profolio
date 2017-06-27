@@ -651,6 +651,10 @@ body {
   font-size: 16px;
   color: #614a3d;
 }
+/* line 114, assets\less\store.less */
+#store-wrap section .shop {
+  margin-top: 770px;
+}
 /* line 1, assets\less\product.less */
 html,
 body {
@@ -797,34 +801,29 @@ body {
   margin-bottom: 60px;
   position: relative;
 }
-/* line 119, assets\less\product.less */
-#product-wrap section .sec-two .bean-b .beans .line-first div {
-  display: inline-block;
-  margin-left: 35px;
-}
-/* line 122, assets\less\product.less */
-#product-wrap section .sec-two .bean-b .beans .line-first div .w-line {
+/* line 120, assets\less\product.less */
+#product-wrap section .sec-two .bean-b .beans .line-first .box_one .w-line {
   width: 181px;
   height: 161px;
   border: 1px solid #FFF;
   display: inline-block;
   position: absolute;
   top: 10px;
-  left: 51px;
+  left: 14px;
 }
-/* line 131, assets\less\product.less */
-#product-wrap section .sec-two .bean-b .beans .line-first div .box-a {
+/* line 129, assets\less\product.less */
+#product-wrap section .sec-two .bean-b .beans .line-first .box_one .box-a {
   width: 145px;
   height: 124px;
   background-color: #4c4c4d;
   display: inline-block;
   position: absolute;
   top: 29px;
-  left: 68px;
+  left: 34px;
   z-index: -1;
 }
-/* line 141, assets\less\product.less */
-#product-wrap section .sec-two .bean-b .beans .line-first div .txt {
+/* line 139, assets\less\product.less */
+#product-wrap section .sec-two .bean-b .beans .line-first .box_one .txt {
   width: 140px;
   height: 100px;
   font-size: 12px;
@@ -832,18 +831,20 @@ body {
   outline: 1px solid #F00;
   position: absolute;
   top: 50px;
+  left: 36px;
   text-transform: uppercase;
   text-align: center;
 }
-/* line 151, assets\less\product.less */
-#product-wrap section .sec-two .bean-b .beans .line-first div .txt span {
+/* line 150, assets\less\product.less */
+#product-wrap section .sec-two .bean-b .beans .line-first .box_one .txt span {
   display: block;
 }
-/* line 154, assets\less\product.less */
-#product-wrap section .sec-two .bean-b .beans .line-first div .txt .title {
+/* line 153, assets\less\product.less */
+#product-wrap section .sec-two .bean-b .beans .line-first .box_one .txt .title {
   font-size: 18px;
   margin-bottom: 4px;
 }
+<<<<<<< HEAD
 /* line 159, assets\less\product.less */
 #product-wrap section .sec-two .bean-b .beans .line-first div .txt div .i-line {
   padding-left: 20px;
@@ -852,10 +853,23 @@ body {
 /* line 163, assets\less\product.less */
 #product-wrap section .sec-two .bean-b .beans .line-first div .txt div .sub-t {
   margin-bottom: 11px;
+=======
+/* line 158, assets\less\product.less */
+#product-wrap section .sec-two .bean-b .beans .line-first .box_one .txt div i {
+  padding-left: 15px;
+  height: 1px;
+  width: 20px;
+  margin-bottom: 4px;
   display: inline-block;
-  padding: 0 20px;
-  background-image: url(../assets/images/line.png);
+  background-image: url('../images/line.png');
 }
+/* line 166, assets\less\product.less */
+#product-wrap section .sec-two .bean-b .beans .line-first .box_one .txt div .sub-t {
+  margin: 10px 5px;
+>>>>>>> 2b9f7c0f5a514e3a236ae25cbba389567b0eb0ab
+  display: inline-block;
+}
+<<<<<<< HEAD
 /* line 171, assets\less\product.less */
 #product-wrap section .sec-two .bean-b .beans .line-first div .b-img {
   position: relative;
@@ -866,6 +880,18 @@ body {
   margin-bottom: 60px;
 }
 /* line 179, assets\less\product.less */
+=======
+/* line 172, assets\less\product.less */
+#product-wrap section .sec-two .bean-b .beans .line-first .box_one .b-img {
+  position: relative;
+  z-index: -5;
+}
+/* line 178, assets\less\product.less */
+#product-wrap section .sec-two .bean-b .beans .line-second {
+  margin-bottom: 60px;
+}
+/* line 180, assets\less\product.less */
+>>>>>>> 2b9f7c0f5a514e3a236ae25cbba389567b0eb0ab
 #product-wrap section .sec-two .bean-b .beans .line-second div {
   display: inline-block;
   margin-left: 36px;
@@ -965,42 +991,4 @@ body {
   background-image: url('../images/Ellipse.png');
   background-repeat: no-repeat;
   background-position: 0 5px;
-}
-/* line 80, assets\less\blog.less */
-#blog-wrap section .sec-two {
-  width: 100%;
-  height: 1500px;
-  position: absolute;
-  top: 50%;
-  color: #614a3d;
-}
-/* line 86, assets\less\blog.less */
-#blog-wrap section .sec-two .m-title {
-  text-align: center;
-  text-transform: uppercase;
-  margin-top: 130px;
-  margin-bottom: 100px;
-}
-/* line 91, assets\less\blog.less */
-#blog-wrap section .sec-two .m-title span {
-  display: block;
-}
-/* line 94, assets\less\blog.less */
-#blog-wrap section .sec-two .m-title span:first-child {
-  font-size: 30px;
-}
-/* line 97, assets\less\blog.less */
-#blog-wrap section .sec-two .m-title span + span {
-  color: #79685e;
-  font-size: 16px;
-  margin-top: 18px;
-}
-/* line 102, assets\less\blog.less */
-#blog-wrap section .sec-two .m-title .s-logo {
-  margin-top: 11px;
-}
-/* line 105, assets\less\blog.less */
-#blog-wrap section .sec-two .m-title span:last-child {
-  font-size: 16px;
-  color: #614a3d;
 }
