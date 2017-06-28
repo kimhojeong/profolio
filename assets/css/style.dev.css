@@ -799,6 +799,9 @@ body {
 /* line 116, assets\less\product.less */
 #product-wrap section .sec-two .bean-b .beans .line-first {
   margin-bottom: 60px;
+}
+/* line 118, assets\less\product.less */
+#product-wrap section .sec-two .bean-b .beans .line-first .box_one {
   position: relative;
 }
 /* line 120, assets\less\product.less */
@@ -809,7 +812,7 @@ body {
   display: inline-block;
   position: absolute;
   top: 10px;
-  left: 14px;
+  left: 13px;
 }
 /* line 129, assets\less\product.less */
 #product-wrap section .sec-two .bean-b .beans .line-first .box_one .box-a {
@@ -844,17 +847,12 @@ body {
   font-size: 18px;
   margin-bottom: 4px;
 }
-<<<<<<< HEAD
-/* line 159, assets\less\product.less */
-#product-wrap section .sec-two .bean-b .beans .line-first div .txt div .i-line {
+/* line 158, assets\less\product.less */
+#product-wrap section .sec-two .bean-b .beans .line-first .box_one .txt div .i-line {
   padding-left: 20px;
   background-image: url(../assets/images/line.png);
 }
-/* line 163, assets\less\product.less */
-#product-wrap section .sec-two .bean-b .beans .line-first div .txt div .sub-t {
-  margin-bottom: 11px;
-=======
-/* line 158, assets\less\product.less */
+/* line 162, assets\less\product.less */
 #product-wrap section .sec-two .bean-b .beans .line-first .box_one .txt div i {
   padding-left: 15px;
   height: 1px;
@@ -863,35 +861,31 @@ body {
   display: inline-block;
   background-image: url('../images/line.png');
 }
-/* line 166, assets\less\product.less */
+/* line 170, assets\less\product.less */
 #product-wrap section .sec-two .bean-b .beans .line-first .box_one .txt div .sub-t {
   margin: 10px 5px;
->>>>>>> 2b9f7c0f5a514e3a236ae25cbba389567b0eb0ab
   display: inline-block;
-}
-<<<<<<< HEAD
-/* line 171, assets\less\product.less */
-#product-wrap section .sec-two .bean-b .beans .line-first div .b-img {
-  position: relative;
-  z-index: -5;
+  background-image: url(../assets/images/line.png);
 }
 /* line 177, assets\less\product.less */
-#product-wrap section .sec-two .bean-b .beans .line-second {
-  margin-bottom: 60px;
+#product-wrap section .sec-two .bean-b .beans .line-first .box_one .bottom_txt {
+  position: absolute;
+  left: 50px;
+  top: 176px;
+  color: #96b3ca;
+  font-size: 10px;
+  text-transform: capitalize;
 }
-/* line 179, assets\less\product.less */
-=======
-/* line 172, assets\less\product.less */
+/* line 185, assets\less\product.less */
 #product-wrap section .sec-two .bean-b .beans .line-first .box_one .b-img {
   position: relative;
   z-index: -5;
 }
-/* line 178, assets\less\product.less */
+/* line 191, assets\less\product.less */
 #product-wrap section .sec-two .bean-b .beans .line-second {
   margin-bottom: 60px;
 }
-/* line 180, assets\less\product.less */
->>>>>>> 2b9f7c0f5a514e3a236ae25cbba389567b0eb0ab
+/* line 193, assets\less\product.less */
 #product-wrap section .sec-two .bean-b .beans .line-second div {
   display: inline-block;
   margin-left: 36px;
