@@ -116,7 +116,10 @@ height: 100%;}
                     .line-first{
                         margin-bottom: 60px;
                         .box_one{
-                          position: relative;
+                            float: left;
+                            position: relative;
+                            margin-left: 40px;
+                            margin-bottom: 90px;
                             .w-line{
                                 width: 181px;
                                 height: 161px;
@@ -141,12 +144,23 @@ height: 100%;}
                                 height: 100px;
                                 font-size: 12px;
                                 color: #96b3ca;
-                                outline: 1px solid #F00;
                                 position: absolute;
                                 top: 50px;
                                 left: 36px;
                                 text-transform: uppercase;
                                 text-align: center;
+                                &.pink{
+                                    color: #f59ea5;
+                                }
+                                &.purple{
+                                    color: #c08bb3;
+                                }
+                                &.yellow{
+                                    color: #f6f1a1;
+                                }
+                                &.navy{
+                                    color: #6dcff6;
+                                }
                                 span{
                                     display: block;
                                 }
@@ -166,7 +180,135 @@ height: 100%;}
                                         margin-bottom: 4px;
                                         display: inline-block;
                                         background-image: url('../images/line.png');
+                                        &.kochere{
+                                            background-image: url('../images/pink.png');
+                                        }
+                                        &.aricha{
+                                            background-image: url('../images/aricha.png');
+                                        }
+                                        &.gelgelu{
+                                            background-image: url('../images/gelgelu.png');
+                                        }
+                                        &.musasa{
+                                            background-image: url('../images/musasa.png');
+                                        }
+                                    } //i
+                                    .sub-t{
+                                        margin: 10px 5px;
+                                        display: inline-block;
+                                        background-image: url(../assets/images/line.png);
                                     }
+                                } //.box_one
+                            } //.txt
+                            .bottom_txt{
+                              position: absolute;
+                              left: 50px;
+                              top: 176px;
+                              color: #96b3ca;
+                              font-size: 10px;
+                              text-transform: capitalize;
+                              &.pink{
+                                  color: #f59ea5;
+                              }
+                              &.purple{
+                                  color: #c08bb3;
+                              }
+                              &.yellow{
+                                  color: #f6f1a1;
+                              }
+                              &.d_blue{
+                                  color: #437093;
+                              }
+                              &.sitio{
+                                  color: #d9ba9a;
+                              }
+                            }//.bottom_txt
+                            .b-img{
+                                position: relative;
+                                z-index: -5;
+                            } //.b-img
+                        } //.box_one
+                    } //.line-first
+                    .line-second{
+                        margin-bottom: 60px;
+                        clear: both;
+                        .box_se{
+                            float: left;
+                            position: relative;
+                            margin-left: 40px;
+                            .w-two{
+                                width: 181px;
+                                height: 161px;
+                                border: 1px solid #FFF;
+                                display: inline-block;
+                                position: absolute;
+                                top: 10px;
+                                left: 13px;
+                            }
+                            .box-b{
+                                width: 145px;
+                                height: 124px;
+                                background-color: #4c4c4d;
+                                display: inline-block;
+                                position: absolute;
+                                top: 29px;
+                                left:34px;
+                                z-index: -1;
+                            }
+                            .txt_se{
+                                width: 140px;
+                                height: 100px;
+                                font-size: 12px;
+                                color: #96b3ca;
+                                position: absolute;
+                                top: 50px;
+                                left: 36px;
+                                text-transform: uppercase;
+                                text-align: center;
+                                &.cream{
+                                    color: #b4ac9c;
+                                }
+                                &.sugar{
+                                    color: #917653;
+                                }
+                                &.pressure{
+                                    color: #ab7b87;
+                                }
+                                &.sitio{
+                                    color: #d9ba9a;
+                                }
+                                span{
+                                    display: block;
+                                }
+                                .title{
+                                    font-size: 18px;
+                                    margin-bottom: 4px;
+                                }
+                                div{
+                                    .i-line{
+                                      padding-left: 20px;
+                                      background-image: url(../assets/images/line.png);
+                                     }
+                                    i{
+                                        padding-left: 15px;
+                                        height: 1px;
+                                        width: 20px;
+                                        margin-bottom: 4px;
+                                        display: inline-block;
+                                        background-image: url('../images/line.png');
+                                        &.crema{
+                                            background-image: url('../images/crema.png');
+                                        }
+                                        &.sugar{
+                                            background-image: url('../images/sugar.png');
+                                        }
+                                        &.pressure{
+                                            background-image: url('../images/pressure.png');
+                                        }
+                                        &.sitio{
+                                            background-image: url('../images/sitio.png');
+                                        }
+                                    } //i
                                     .sub-t{
                                         margin: 10px 5px;
                                         display: inline-block;
@@ -181,20 +323,23 @@ height: 100%;}
                               color: #96b3ca;
                               font-size: 10px;
                               text-transform: capitalize;
+                              &.cream{
+                                  color: #b4ac9c;
+                              }
+                              &.sugar{
+                                  color: #917653;
+                              }
+                              &.pressure{
+                                  color: #ab7b87;
+                              }
                             }//.bottom_txt
                             .b-img{
                                 position: relative;
                                 z-index: -5;
                             } //.b-img
                         } //div
-                    } //.line-first
-                    .line-second{
-                        margin-bottom: 60px;
-                        div{
-                            display: inline-block;
-                            margin-left: 36px;
-                        }
-                    }
+                    } //.line-second
+
                 } //.beans
             } //bean-b
         } //sec-two
