@@ -79,7 +79,7 @@ height: 100%;}
         } //.sec-bar
         .sec-two{
             width: 100%;
-            height: 1500px;
+            height: 1350px;
             position: absolute;
             top: 50%;
             color: @main-color;
@@ -236,6 +236,7 @@ height: 100%;}
                             float: left;
                             position: relative;
                             margin-left: 40px;
+                            margin-bottom: 90px;
                             .w-two{
                                 width: 181px;
                                 height: 161px;
@@ -339,7 +340,116 @@ height: 100%;}
                             } //.b-img
                         } //div
                     } //.line-second
-
+                    .line-third{
+                        margin-bottom: 60px;
+                        clear: both;
+                        .box_se{
+                            float: left;
+                            position: relative;
+                            margin-left: 40px;
+                            .w-two{
+                                width: 181px;
+                                height: 161px;
+                                border: 1px solid #FFF;
+                                display: inline-block;
+                                position: absolute;
+                                top: 10px;
+                                left: 13px;
+                            }
+                            .box-b{
+                                width: 145px;
+                                height: 124px;
+                                background-color: #4c4c4d;
+                                display: inline-block;
+                                position: absolute;
+                                top: 29px;
+                                left:34px;
+                                z-index: -1;
+                            }
+                            .txt_se{
+                                width: 140px;
+                                height: 100px;
+                                font-size: 12px;
+                                color: #96b3ca;
+                                position: absolute;
+                                top: 50px;
+                                left: 36px;
+                                text-transform: uppercase;
+                                text-align: center;
+                                &.cream{
+                                    color: #b4ac9c;
+                                }
+                                &.sugar{
+                                    color: #917653;
+                                }
+                                &.pressure{
+                                    color: #ab7b87;
+                                }
+                                &.sitio{
+                                    color: #d9ba9a;
+                                }
+                                span{
+                                    display: block;
+                                }
+                                .title{
+                                    font-size: 18px;
+                                    margin-bottom: 4px;
+                                }
+                                div{
+                                    .i-line{
+                                      padding-left: 20px;
+                                      background-image: url(../assets/images/line.png);
+                                     }
+                                    i{
+                                        padding-left: 15px;
+                                        height: 1px;
+                                        width: 20px;
+                                        margin-bottom: 4px;
+                                        display: inline-block;
+                                        background-image: url('../images/line.png');
+                                        &.crema{
+                                            background-image: url('../images/crema.png');
+                                        }
+                                        &.sugar{
+                                            background-image: url('../images/sugar.png');
+                                        }
+                                        &.pressure{
+                                            background-image: url('../images/pressure.png');
+                                        }
+                                        &.sitio{
+                                            background-image: url('../images/sitio.png');
+                                        }
+                                    } //i
+                                    .sub-t{
+                                        margin: 10px 5px;
+                                        display: inline-block;
+                                        background-image: url(../assets/images/line.png);
+                                    }
+                                } //div
+                            } //.txt
+                            .bottom_txt{
+                              position: absolute;
+                              left: 50px;
+                              top: 176px;
+                              color: #96b3ca;
+                              font-size: 10px;
+                              text-transform: capitalize;
+                              &.cream{
+                                  color: #b4ac9c;
+                              }
+                              &.sugar{
+                                  color: #917653;
+                              }
+                              &.pressure{
+                                  color: #ab7b87;
+                              }
+                            }//.bottom_txt
+                            .b-img{
+                                position: relative;
+                                z-index: -5;
+                            } //.b-img
+                        } //div
+                    } //.line-third
                 } //.beans
             } //bean-b
         } //sec-two
