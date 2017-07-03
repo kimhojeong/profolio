@@ -2,15 +2,105 @@ footer{
   margin-top: 3278px;
   position: relative;
   .upper{
+      text-align: center;
+    .coffee{
+        img{
+            position: relative;
+        }
+    } //.coffee
     .f_logo{
-      position: absolute;
-      left: 0;
-      top: 0;
-    }
-  }
+        width: 100%;
+        position: absolute;
+        top: 93px;
+      .m_log{
+        //   position: absolute;
+        //   left: 882.5px;
+      }//.m_log
+      .box_t{
+          text-align: center;
+          display: block;
+          width: 100%;
+          .txt_first{
+              ul{
+                  margin-top: 53px;
+                  li{
+                      display: inline-block;
+                      margin: 0 8px;
+                      &:first-child{
+                        &::before{
+                            content: none;
+                        }
+                      }
+                      &::before{
+                          content: "";
+                          border-left: 1px solid #FFF;
+                          margin: 0 5px;
+                      }
+                      a{
+                          color: #FFF;
+                          margin-left: 12px;
+                      }
+                  }
+              }
+          } //.txt_first
+          .txt_second{
+              ul{
+                  li{
+                      display: inline-block;
+                      margin: 0 8px;
+                      margin-top: 16px;
+                      &:first-child{
+                        &::before{
+                            content: none;
+                        }
+                      }
+                      &::before{
+                          content: "";
+                          border-left: 1px solid #FFF;
+                          margin: 0 5px;
+                      }
+                      a{
+                          color: #FFF;
+                          margin-left: 12px;
+                      }
+                  }
+              }//ul
+          } //.txt_second
+          .txt_third{
+              ul{
+                  li{
+                      display: inline-block;
+                      margin: 0 8px;
+                      margin-top: 16px;
+                      &:first-child{
+                        &::before{
+                            content: none;
+                        }
+                      }
+                      &::before{
+                          content: "";
+                          border-left: 1px solid #FFF;
+                          margin: 0 5px;
+                      }
+                      a{
+                          color: #FFF;
+                          margin-left: 12px;
+                      }
+                  }
+               }//ul
+             }//.txt_third
+          }
+      }//.box_t
+  } //.upper
   .bottom{
     width: 100%;
     height: 60px;
     background-color: #0f0b05;
+    span{
+        font-size: 14px;
+        color: #696766;
+        line-height: 60px;
+
+    }
   }
-}
+}//footer

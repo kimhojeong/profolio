@@ -41,9 +41,9 @@ module.exports = function(grunt) {
             files: ['html/**/*.html'],
             tasks: ['includes'],
             options: {
-            spawn: false,
+                spawn: false,
             },
-        }
+        },
       },
       includes: { //복수로 여러개
       dist:{
