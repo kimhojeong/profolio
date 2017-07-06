@@ -1408,8 +1408,20 @@ body {
 /* line 13, assets\less\franchise.less */
 .intro .gnb .wrap .menu_btn {
   float: right;
+  line-height: 50px;
+  margin-left: 25px;
 }
-/* line 16, assets\less\franchise.less */
+/* line 17, assets\less\franchise.less */
+.intro .gnb .wrap .menu_btn button {
+  font-size: 0;
+  width: 15px;
+  height: 14px;
+  border: none;
+  background-image: url(../images/menu-icon.png);
+  background-repeat: no-repeat;
+  vertical-align: 6px;
+}
+/* line 28, assets\less\franchise.less */
 .intro .gnb .wrap .sns {
   float: right;
   width: 138px;
@@ -1417,47 +1429,134 @@ body {
   outline: 1px solid #F00;
   font-size: 0;
 }
-/* line 22, assets\less\franchise.less */
-.intro .gnb .wrap .sns li {
-  float: left;
+/* line 34, assets\less\franchise.less */
+.intro .gnb .wrap .sns ul {
+  text-align: right;
 }
-/* line 24, assets\less\franchise.less */
-.intro .gnb .wrap .sns li a {
+/* line 36, assets\less\franchise.less */
+.intro .gnb .wrap .sns ul li {
+  display: inline-block;
+  line-height: 50px;
+  margin-left: 25px;
+}
+/* line 40, assets\less\franchise.less */
+.intro .gnb .wrap .sns ul li a {
   display: inline-block;
   width: 14px;
   height: 14px;
 }
-/* line 29, assets\less\franchise.less */
-.intro .gnb .wrap .sns li .facebook {
+/* line 45, assets\less\franchise.less */
+.intro .gnb .wrap .sns ul li .facebook {
   background-image: url(../images/face-icon.png);
   outline: 1px solid #f00;
+  vertical-align: middle;
 }
-/* line 33, assets\less\franchise.less */
-.intro .gnb .wrap .sns li .twitter {
+/* line 50, assets\less\franchise.less */
+.intro .gnb .wrap .sns ul li .twitter {
   background-image: url(../images/twitter-icon.png);
   outline: 1px solid #f00;
+  vertical-align: middle;
 }
-/* line 37, assets\less\franchise.less */
-.intro .gnb .wrap .sns li .instar {
+/* line 55, assets\less\franchise.less */
+.intro .gnb .wrap .sns ul li .instar {
   background-image: url(../images/insta-icon.png);
   outline: 1px solid #f00;
+  vertical-align: middle;
 }
-/* line 45, assets\less\franchise.less */
+/* line 65, assets\less\franchise.less */
 .intro .lnb {
   width: 1280px;
   height: 60px;
   margin: 0 auto;
   outline: 1px solid #F00;
 }
-/* line 50, assets\less\franchise.less */
+/* line 70, assets\less\franchise.less */
 .intro .lnb h1 {
   float: left;
+  margin-top: 50px;
 }
-/* line 53, assets\less\franchise.less */
+/* line 74, assets\less\franchise.less */
 .intro .lnb .menu {
   float: right;
+  margin-top: 70px;
 }
-/* line 55, assets\less\franchise.less */
+/* line 77, assets\less\franchise.less */
 .intro .lnb .menu li {
   float: left;
+  margin-left: 40px;
+}
+/* line 80, assets\less\franchise.less */
+.intro .lnb .menu li:first-child a {
+  background-image: none;
+}
+/* line 83, assets\less\franchise.less */
+.intro .lnb .menu li a {
+  color: #FFF;
+  text-transform: uppercase;
+  padding-left: 50px;
+  background-image: url(../images/Ellipse.png);
+  background-repeat: no-repeat;
+  background-position: 0 5px;
+}
+/* line 94, assets\less\franchise.less */
+.intro .titler {
+  margin-top: 230px;
+}
+/* line 96, assets\less\franchise.less */
+.intro .titler .franchise {
+  text-transform: uppercase;
+  text-align: center;
+}
+/* line 99, assets\less\franchise.less */
+.intro .titler .franchise h2 {
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 400;
+}
+/* line 106, assets\less\franchise.less */
+.intro .titler .franchise .txt_fran .home {
+  color: #b0b0b0;
+}
+/* line 109, assets\less\franchise.less */
+.intro .titler .franchise .txt_fran .arrow {
+  font-size: 0;
+  background-image: url(../images/center-arrow.png);
+}
+/* line 113, assets\less\franchise.less */
+.intro .titler .franchise .txt_fran .fran {
+  color: #FFF;
+}
+/* line 120, assets\less\franchise.less */
+.sec_one {
+  color: #614a3d;
+}
+/* line 122, assets\less\franchise.less */
+.sec_one .m-title {
+  text-align: center;
+  margin-top: 130px;
+}
+/* line 125, assets\less\franchise.less */
+.sec_one .m-title span {
+  display: block;
+  text-transform: uppercase;
+}
+/* line 129, assets\less\franchise.less */
+.sec_one .m-title span:first-child {
+  font-size: 30px;
+}
+/* line 132, assets\less\franchise.less */
+.sec_one .m-title span + span {
+  color: #79685e;
+  font-size: 16px;
+  margin-top: 18px;
+}
+/* line 137, assets\less\franchise.less */
+.sec_one .m-title .s-logo {
+  margin-top: 11px;
+}
+/* line 140, assets\less\franchise.less */
+.sec_one .m-title span:last-child {
+  font-size: 16px;
+  color: #614a3d;
 }

@@ -12,6 +12,18 @@ height: 100%;}
             outline: 1px solid #F00;
             .menu_btn{
                 float: right;
+                line-height: 50px;
+                margin-left: 25px;
+                button{
+                    font-size: 0;
+                    width: 15px;
+                    height: 14px;
+                    border: none;
+                    background-image: url(../images/menu-icon.png);
+                    background-repeat: no-repeat;
+                    vertical-align: 6px;
+
+                }
             }
             .sns{
                 float: right;
@@ -19,25 +31,33 @@ height: 100%;}
                 height: 50px;
                 outline: 1px solid #F00;
                 font-size: 0;
-                li{
-                    float: left;
-                    a{
+                ul{
+                    text-align: right;
+                    li{
                         display: inline-block;
-                        width: 14px;
-                        height: 14px;
-                    }
-                    .facebook{
-                        background-image: url(../images/face-icon.png);
-                        outline: 1px solid #f00;
-                    }
-                    .twitter{
-                        background-image: url(../images/twitter-icon.png);
-                        outline: 1px solid #f00;
-                    }
-                    .instar{
-                        background-image: url(../images/insta-icon.png);
-                        outline: 1px solid #f00;
-                    }
+                        line-height: 50px;
+                        margin-left: 25px;
+                        a{
+                            display: inline-block;
+                            width: 14px;
+                            height: 14px;
+                        }
+                        .facebook{
+                            background-image: url(../images/face-icon.png);
+                            outline: 1px solid #f00;
+                            vertical-align: middle;
+                        }
+                        .twitter{
+                            background-image: url(../images/twitter-icon.png);
+                            outline: 1px solid #f00;
+                            vertical-align: middle;
+                        }
+                        .instar{
+                            background-image: url(../images/insta-icon.png);
+                            outline: 1px solid #f00;
+                            vertical-align: middle;
+                         }
+                        }//li
                 }
             }
         }//.wrap
@@ -49,12 +69,77 @@ height: 100%;}
         outline: 1px solid #F00;
         h1{
             float: left;
+            margin-top: 50px;
         }
         .menu{
             float: right;
+            margin-top: 70px;
             li{
                 float: left;
+                margin-left: 40px;
+                &:first-child a{
+                    background-image: none;
+                }
+                a{
+                    color: #FFF;
+                    text-transform: uppercase;
+                    padding-left: 50px;
+                    background-image: url(../images/Ellipse.png);
+                    background-repeat: no-repeat;
+                    background-position: 0 5px;
+                }
             }
-        }
-    }
+        }//.menu
+    }//.lnb
+    .titler{
+        margin-top: 230px;
+        .franchise{
+            text-transform: uppercase;
+            text-align: center;
+            h2{
+                color: #FFF;
+                text-transform: uppercase;
+                font-size: 35px;
+                font-weight: 400;
+            }
+            .txt_fran{
+                .home{
+                    color: #b0b0b0;
+                }
+                .arrow{
+                    font-size: 0;
+                    background-image: url(../images/center-arrow.png);
+                }
+                .fran{
+                    color: #FFF;
+                }
+            }//.txt_fran
+        }//.franchise
+    }//.titler
 }//.intro
+.sec_one{
+    color: @main-color;
+    .m-title{
+        text-align: center;
+        margin-top: 130px;
+        span{
+            display: block;
+            text-transform: uppercase;
+        }
+        span:first-child{
+            font-size: 30px;
+        }
+        span + span{
+            color: @second-color;
+            font-size: 16px;
+            margin-top: 18px;
+        }
+        .s-logo{
+            margin-top: 11px;
+        }
+        span:last-child{
+            font-size: 16px;
+            color: @main-color;
+        }
+    }//.m-title
+}//.sec_one
