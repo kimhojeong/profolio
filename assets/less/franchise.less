@@ -134,6 +134,7 @@ html.franchiseHtml,body.franchiseBody{
     color: @main-color;
     width: 1280px;
     margin: 0 auto;
+    overflow: hidden;
     .m-title{
         text-align: center;
         margin: 130px 0 160px;
@@ -199,22 +200,144 @@ html.franchiseHtml,body.franchiseBody{
               display: block;
               color: #FFF;
             }
-          }
-        }
+          }//div
+        }//div.franc_pic
         div + div{
           border: 1px #F00 solid;
           margin-top: 15px;
           span{
             font-size: 16px;
           }
+        }//div + div
+        .franc_pic_text .pic_two{
+            background-image: url(../images/fran_co01.png);
         }
-      }
+        .franc_pic_text .pic_three{
+            background-image: url(../images/fran_co02.png);
+        }
+      }//li
 
       li.fm{
         display: inline-block;
       }
-
-    }
-
-
+    }//.franc_concept_wrapper
+    .franchise_con{
+        width: 1280px;
+        margin: 0 auto 230px;;
+        outline: 1px solid #F00;
+        overflow: hidden;
+        .left_pic{
+            width: 46%;
+            height: 454px;
+            outline: 1px solid #000;
+            div{
+                width: 100%;
+                height: 454px;
+                outline: 1px #F00 solid;
+                display: inline-block;
+                background-image: url(../images/concept_00.png);
+            }
+        }
+        .right_pic{
+            width: 53.5%;
+            height: 454px;
+            outline: 1px solid #000;
+            .upper_box{
+                width: 100%;
+                height: 49%;
+                outline: 1px solid #f00;
+                .up_one{
+                    width: 30%;
+                    height: 221px;
+                    display: inline-block;
+                    outline: 1px solid #00F;
+                    background-image: url(../images/concept_01.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .up_two{
+                    width: 69%;
+                    height: 221px;
+                    display: inline-block;
+                    outline: 1px solid #00F;
+                    background-image: url(../images/concept_02.png);
+                    background-size: cover;
+                }
+            }//.upper_box
+            .bottom_box{
+                height: 50%;
+                margin-top: 5px;
+                outline: 1px solid #F00;
+                .b_one{
+                    width: 45%;
+                    height: 227px;
+                    display: inline-block;
+                    outline: 1px solid #000;
+                    background-image: url(../images/concept_03.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .b_two{
+                    width: 54%;
+                    height: 227px;
+                    display: inline-block;
+                    outline: 1px solid #000;
+                    background-image: url(../images/concept_04.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+        }//.right_pic
+    }//.franchise_con
 }//.sec_one
+// .middle_pic{
+//     width: 100%;
+//     height: 350px;
+//     background-image: url(../images/middle-pic.png);
+//     clear: both;
+//     position: absolute;
+//     top:2050px;
+//  }
+.franchise_system{
+    width: 100%;
+    text-align: center;
+    outline: 1px solid #F00;
+    .middle_pic{
+        width: 100%;
+        height: 350px;
+        background-image: url(../images/middle-pic.png);
+        clear: both;
+     }
+     .franc_sys_wrap{
+         width: 1280px;
+         margin:0 auto;
+         border: 1px #F00 solid;
+     }
+    .m-title{
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 130px;
+        margin-bottom: 100px;
+        span{
+            display: block;
+        }
+        span:first-child{
+            font-size: 30px;
+            color: @main-color;
+        }
+        span + span{
+            color: @second-color;
+            font-size: 16px;
+            margin-top: 18px;
+        }
+        .s-logo{
+            margin-top: 11px;
+        }
+        span:last-child{
+            font-size: 16px;
+            color: @main-color;
+        }
+    } //.m-title
+}
