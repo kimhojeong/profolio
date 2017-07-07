@@ -1787,3 +1787,44 @@ body.franchiseBody {
   font-size: 16px;
   color: #614a3d;
 }
+/* line 343, assets\less\franchise.less */
+.franchise_system .system_concept {
+  width: 100%;
+  border: 1px #F00 solid;
+}
+/* line 346, assets\less\franchise.less */
+.franchise_system .system_concept li.fm {
+  display: inline-block;
+}
+/* line 349, assets\less\franchise.less */
+.franchise_system .system_concept li {
+  width: 30%;
+  border: 1px #F00 solid;
+}
+/* line 352, assets\less\franchise.less */
+.franchise_system .system_concept li .concept_pic {
+  width: 208px;
+  height: 208px;
+  margin: 0 auto 35px;
+  border: 1px #F00 solid;
+  background-image: url('../images/system01.png');
+}
+/* line 359, assets\less\franchise.less */
+.franchise_system .system_concept li h4 {
+  margin-bottom: 18px;
+  font-size: 20px;
+  color: #614a3d;
+}
+/* line 364, assets\less\franchise.less */
+.franchise_system .system_concept li > span {
+  height: 1px;
+  width: 140px;
+  border-bottom: 1px #614a3d solid;
+  display: inline-block;
+}
+/* line 370, assets\less\franchise.less */
+.franchise_system .system_concept li p {
+  color: #614a3d;
+  font-size: 18px;
+  margin: 0 15px;
+}
