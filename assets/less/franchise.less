@@ -248,7 +248,7 @@ html.franchiseHtml,body.franchiseBody{
                 outline: 1px solid #f00;
                 .up_one{
                     width: 30%;
-                    height: 221px;
+                    height: 100%;
                     display: inline-block;
                     outline: 1px solid #00F;
                     background-image: url(../images/concept_01.png);
@@ -258,7 +258,7 @@ html.franchiseHtml,body.franchiseBody{
                 }
                 .up_two{
                     width: 69%;
-                    height: 221px;
+                    height: 100%;
                     display: inline-block;
                     outline: 1px solid #00F;
                     background-image: url(../images/concept_02.png);
@@ -271,7 +271,7 @@ html.franchiseHtml,body.franchiseBody{
                 outline: 1px solid #F00;
                 .b_one{
                     width: 45%;
-                    height: 227px;
+                    height: 100%;
                     display: inline-block;
                     outline: 1px solid #000;
                     background-image: url(../images/concept_03.png);
@@ -281,7 +281,7 @@ html.franchiseHtml,body.franchiseBody{
                 }
                 .b_two{
                     width: 54%;
-                    height: 227px;
+                    height: 100%;
                     display: inline-block;
                     outline: 1px solid #000;
                     background-image: url(../images/concept_04.png);
@@ -343,6 +343,8 @@ html.franchiseHtml,body.franchiseBody{
     .system_concept{
       width: 100%;
       border:1px #F00 solid;
+      overflow: hidden;
+      margin-bottom:230px;
       li.fm{
         display: inline-block;
       }
@@ -358,7 +360,7 @@ html.franchiseHtml,body.franchiseBody{
         }
         h4{
           margin-bottom: 18px;
-          font-size: 20px;
+          font-size: 19px;
           color: @main-color;
         }
         >span{
@@ -372,12 +374,120 @@ html.franchiseHtml,body.franchiseBody{
           font-size:18px;
           margin: 0 15px;
         }
-
       }
-
-
-
-
-
     }// system_concept
 }
+
+section.Process_of_Opening{
+  background-color: #efece9;
+  .m-title{
+      text-align: center;
+      text-transform: uppercase;
+      padding-top: 130px;
+      margin-bottom: 100px;
+      span{
+          display: block;
+          text-transform: uppercase;
+          font-size: 30px;
+          color: #614a3d;
+      }
+      span:first-child{
+          font-size: 30px;
+      }
+      span + span{
+          color: @second-color;
+          font-size: 16px;
+          margin-top: 18px;
+      }
+      .s-logo{
+          margin-top: 11px;
+      }
+      span:last-child{
+          font-size: 16px;
+          color: @main-color;
+      }
+  }//.m-title
+  .Process_wrap{
+    width: 1280px;
+    height: 465px;
+    border: 1px #F00 solid;
+    margin: 0 auto;
+    ol{
+      width: 100%;
+      height: 100%;
+      border: 1px #F00 solid;
+      text-align: center;
+      li{
+        height: 45%;
+        width: 20%;
+        border: 1px #F00 solid;
+        display: inline-block;
+      }
+      li.Process_setp1{
+        background-image: url('../images/process-b1.png');
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        .Process_setp1_contents{
+          height: 80%;
+          width: 60%;
+          border: 1px #F00 solid;
+          position: absolute;
+          left: 10%;
+          top: 10%;
+          h4{
+            text-transform: uppercase;
+          }
+          h4,span{
+            color: #FFF;
+            font-size: 20px;
+            display: block;
+          }
+          span:last-child{
+            font-size: 14px;
+          }
+          .Process_setp1_icon{
+            display: inline-block;
+            width: 53px;
+            height: 60px;
+            background-image: url('../images/process-ico1.png');
+            background-repeat: no-repeat;
+          }
+
+        }
+
+      }
+      .Process_setp2{
+        background-image: url('../images/process-b2.png');
+        margin-left: -60px;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .Process_setp3{
+        background-image: url('../images/process-b3.png');
+        margin-left: -60px;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .Process_setp4{
+        background-image: url('../images/process-b4.png');
+        margin-left: -60px;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .Process_setp5{
+        background-image: url('../images/process-b5.png');
+        margin-left: -60px;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+
+  }
+
+}// Process_of_Opening
