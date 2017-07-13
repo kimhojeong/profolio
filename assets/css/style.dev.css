@@ -198,13 +198,17 @@ body {
   width: 100%;
 }
 /* line 39, assets\less\main.less */
+#wrap section h2 {
+  font-size: 0;
+}
+/* line 42, assets\less\main.less */
 #wrap section .sec-bar {
   width: 1280px;
   height: 59px;
   margin: 0 auto;
   position: relative;
 }
-/* line 45, assets\less\main.less */
+/* line 48, assets\less\main.less */
 #wrap section .sec-bar .main-logo {
   position: absolute;
   top: -7px;
@@ -215,29 +219,29 @@ body {
   margin-top: 52px;
   display: inline-block;
 }
-/* line 55, assets\less\main.less */
+/* line 58, assets\less\main.less */
 #wrap section .sec-bar .main-logo img {
   width: 100%;
   height: 100%;
 }
-/* line 60, assets\less\main.less */
+/* line 63, assets\less\main.less */
 #wrap section .sec-bar .main-bar {
   width: 775px;
   height: 50px;
   float: right;
   margin-top: 50px;
 }
-/* line 67, assets\less\main.less */
+/* line 70, assets\less\main.less */
 #wrap section .sec-bar .main-bar ul li {
   display: inline-block;
   padding: 10px;
   line-height: 10px;
 }
-/* line 71, assets\less\main.less */
+/* line 74, assets\less\main.less */
 #wrap section .sec-bar .main-bar ul li:first-child a {
   background-image: none;
 }
-/* line 74, assets\less\main.less */
+/* line 77, assets\less\main.less */
 #wrap section .sec-bar .main-bar ul li a {
   color: #FFFFFF;
   text-transform: uppercase;
@@ -246,7 +250,7 @@ body {
   background-repeat: no-repeat;
   background-position: 0 5px;
 }
-/* line 86, assets\less\main.less */
+/* line 89, assets\less\main.less */
 #wrap section .sec-slogan {
   width: 680px;
   height: 263px;
@@ -255,20 +259,20 @@ body {
   position: relative;
   text-align: center;
 }
-/* line 94, assets\less\main.less */
+/* line 97, assets\less\main.less */
 #wrap section .sec-slogan h2 {
   font-size: 0;
 }
-/* line 97, assets\less\main.less */
+/* line 100, assets\less\main.less */
 #wrap section .sec-slogan .c-logo {
   position: absolute;
   left: 41.6177%;
 }
-/* line 102, assets\less\main.less */
+/* line 105, assets\less\main.less */
 #wrap section .sec-slogan .m-title div {
   color: #FFFFFF;
 }
-/* line 105, assets\less\main.less */
+/* line 108, assets\less\main.less */
 #wrap section .sec-slogan .m-title .line-up {
   width: 680px;
   height: 2px;
@@ -276,7 +280,7 @@ body {
   position: absolute;
   top: 52%;
 }
-/* line 112, assets\less\main.less */
+/* line 115, assets\less\main.less */
 #wrap section .sec-slogan .m-title .m-t {
   font-size: 42px;
   text-transform: uppercase;
@@ -286,7 +290,7 @@ body {
   top: 55%;
   left: 3%;
 }
-/* line 121, assets\less\main.less */
+/* line 124, assets\less\main.less */
 #wrap section .sec-slogan .m-title .line-down {
   width: 680px;
   height: 2px;
@@ -295,7 +299,7 @@ body {
   top: 83%;
   left: 0;
 }
-/* line 130, assets\less\main.less */
+/* line 133, assets\less\main.less */
 #wrap section .sec-slogan .m-d {
   font-size: 18px;
   font-weight: 500;
@@ -304,19 +308,19 @@ body {
   top: 85%;
   left: 36%;
 }
-/* line 140, assets\less\main.less */
+/* line 143, assets\less\main.less */
 #wrap section .arrow button {
   background-color: transparent;
   border: 0 none;
   cursor: pointer;
 }
-/* line 145, assets\less\main.less */
+/* line 148, assets\less\main.less */
 #wrap section .arrow .arrow-pre {
   margin-left: 10px;
   position: absolute;
   top: 55%;
 }
-/* line 150, assets\less\main.less */
+/* line 153, assets\less\main.less */
 #wrap section .arrow .arrow-nex {
   margin-right: 10px;
   position: absolute;
