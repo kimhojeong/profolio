@@ -147,6 +147,39 @@ footer .bottom span {
   line-height: 60px;
   margin-left: 322px;
 }
+/* line 106, assets\less\footer.less */
+footer .bottom .icon ul {
+  width: 100%;
+  margin-right: 322px;
+  height: 60px;
+}
+/* line 110, assets\less\footer.less */
+footer .bottom .icon ul li {
+  font-size: 0;
+  float: left;
+  margin-left: 25px;
+  line-height: 60px;
+}
+/* line 115, assets\less\footer.less */
+footer .bottom .icon ul li a {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 121, assets\less\footer.less */
+footer .bottom .icon ul li .facebook {
+  background-image: url('../images/face-icon.png');
+}
+/* line 124, assets\less\footer.less */
+footer .bottom .icon ul li .twitter {
+  background-image: url('../images/twitter-icon.png');
+}
+/* line 127, assets\less\footer.less */
+footer .bottom .icon ul li .instar {
+  background-image: url('../images/insta-icon.png');
+  margin-right: 10px;
+}
 /* line 1, assets\less\main.less */
 html,
 body {
@@ -2152,6 +2185,142 @@ section.Process_of_Opening .Process_wrap ol .Process_setp5 .Process_setp5_conten
   width: 53px;
   height: 60px;
   background-image: url('../images/process-icon5.png');
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+/* line 654, assets\less\franchise.less */
+section.Process_of_Opening .Process_wrap ol .Process_setp6 {
+  background-image: url('../images/process-b1.png');
+  margin-left: -60px;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  margin-left: 1px;
+}
+/* line 662, assets\less\franchise.less */
+section.Process_of_Opening .Process_wrap ol .Process_setp6 .Process_setp6_contents {
+  height: 80%;
+  width: 60%;
+  border: 1px #F00 solid;
+  position: absolute;
+  left: 17%;
+  top: 10%;
+}
+/* line 669, assets\less\franchise.less */
+section.Process_of_Opening .Process_wrap ol .Process_setp6 .Process_setp6_contents h4 {
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-weight: 200;
+}
+/* line 674, assets\less\franchise.less */
+section.Process_of_Opening .Process_wrap ol .Process_setp6 .Process_setp6_contents h4,
+section.Process_of_Opening .Process_wrap ol .Process_setp6 .Process_setp6_contents span {
+  color: #FFF;
+  font-size: 20px;
+  display: block;
+}
+/* line 679, assets\less\franchise.less */
+section.Process_of_Opening .Process_wrap ol .Process_setp6 .Process_setp6_contents span:last-child {
+  font-size: 14px;
+  margin-top: 5px;
+}
+/* line 683, assets\less\franchise.less */
+section.Process_of_Opening .Process_wrap ol .Process_setp6 .Process_setp6_contents .Process_setp6_icon {
+  display: inline-block;
+  width: 53px;
+  height: 60px;
+  background-image: url('../images/process-icon6.png');
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+/* line 694, assets\less\franchise.less */
+section.Process_of_Opening .Process_wrap ol .Process_setp7 {
+  background-image: url('../images/process-b2.png');
+  margin-left: -60px;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+/* line 701, assets\less\franchise.less */
+section.Process_of_Opening .Process_wrap ol .Process_setp7 .Process_setp7_contents {
+  height: 80%;
+  width: 60%;
+  border: 1px #F00 solid;
+  position: absolute;
+  left: 17%;
+  top: 10%;
+}
+/* line 708, assets\less\franchise.less */
+section.Process_of_Opening .Process_wrap ol .Process_setp7 .Process_setp7_contents h4 {
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-weight: 200;
+}
+/* line 713, assets\less\franchise.less */
+section.Process_of_Opening .Process_wrap ol .Process_setp7 .Process_setp7_contents h4,
+section.Process_of_Opening .Process_wrap ol .Process_setp7 .Process_setp7_contents span {
+  color: #614a3d;
+  font-size: 20px;
+  display: block;
+}
+/* line 718, assets\less\franchise.less */
+section.Process_of_Opening .Process_wrap ol .Process_setp7 .Process_setp7_contents span:last-child {
+  font-size: 14px;
+  margin-top: 5px;
+}
+/* line 722, assets\less\franchise.less */
+section.Process_of_Opening .Process_wrap ol .Process_setp7 .Process_setp7_contents .Process_setp7_icon {
+  display: inline-block;
+  width: 53px;
+  height: 60px;
+  background-image: url('../images/process-icon7.png');
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+/* line 733, assets\less\franchise.less */
+section.Process_of_Opening .Process_wrap ol .Process_setp8 {
+  background-image: url('../images/process-b3.png');
+  margin-left: -60px;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+/* line 740, assets\less\franchise.less */
+section.Process_of_Opening .Process_wrap ol .Process_setp8 .Process_setp8_contents {
+  height: 80%;
+  width: 60%;
+  border: 1px #F00 solid;
+  position: absolute;
+  left: 17%;
+  top: 10%;
+}
+/* line 747, assets\less\franchise.less */
+section.Process_of_Opening .Process_wrap ol .Process_setp8 .Process_setp8_contents h4 {
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-weight: 200;
+}
+/* line 752, assets\less\franchise.less */
+section.Process_of_Opening .Process_wrap ol .Process_setp8 .Process_setp8_contents h4,
+section.Process_of_Opening .Process_wrap ol .Process_setp8 .Process_setp8_contents span {
+  color: #FFF;
+  font-size: 20px;
+  display: block;
+}
+/* line 757, assets\less\franchise.less */
+section.Process_of_Opening .Process_wrap ol .Process_setp8 .Process_setp8_contents span:last-child {
+  font-size: 14px;
+  margin-top: 5px;
+}
+/* line 761, assets\less\franchise.less */
+section.Process_of_Opening .Process_wrap ol .Process_setp8 .Process_setp8_contents .Process_setp8_icon {
+  display: inline-block;
+  width: 53px;
+  height: 60px;
+  background-image: url('../images/process-icon8.png');
   background-repeat: no-repeat;
   margin-top: 10px;
 }
