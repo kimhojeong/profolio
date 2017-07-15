@@ -1504,7 +1504,7 @@ body {
 /* line 10, assets\less\blog.less */
 .blogWrapper {
   width: 1280px;
-  border: 1px #F00 solid;
+  outline: 1px #00F solid;
   margin: 0 auto;
 }
 /* line 15, assets\less\blog.less */
@@ -1619,6 +1619,39 @@ aside.blogAside {
   width: 360px;
   float: right;
   border: 1px #F00 solid;
+}
+/* line 113, assets\less\blog.less */
+aside.blogAside .search {
+  width: 360px;
+  height: 30px;
+  margin: 0 auto;
+  position: relative;
+  top: 19px;
+}
+/* line 118, assets\less\blog.less */
+aside.blogAside .search fieldset {
+  height: 100%;
+  outline: 1px solid #00F;
+  border: none;
+}
+/* line 124, assets\less\blog.less */
+aside.blogAside .search fieldset input[type="submit"] {
+  width: 40px;
+  height: 30px;
+  background-color: red;
+  border: none;
+  font-size: 0;
+  background-image: url(../images/search-icon.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: center;
+}
+/* line 136, assets\less\blog.less */
+aside.blogAside .search fieldset input[type="text"] {
+  outline: 1px solid #f00;
+  width: 320px;
+  height: 100%;
+  border: none;
 }
 /* line 1, assets\less\franchise.less */
 html.franchiseHtml,

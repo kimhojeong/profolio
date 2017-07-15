@@ -9,7 +9,7 @@ height: 100%;}
 
 .blogWrapper{
   width: 1280px;
-  border:1px #F00 solid;
+  outline: 1px #00F solid;
   margin: 0 auto;
 }
 section.blogSection{
@@ -111,6 +111,34 @@ aside.blogAside{
   float: right;
   border:1px #F00 solid;
   .search{
+    width: 360px;
+    height: 30px;
+    margin: 0 auto;
+    position: relative;top: 19px;
+    fieldset{
+      height: 100%;
+      outline: 1px solid #00F;
+      border: none;
+      // input.search_blog
 
-  }
+      input[type="submit"]{
+        width: 40px;
+        height: 30px;
+        background-color: red;
+        border: none;
+        font-size: 0;
+        background-image: url(../images/search-icon.png);
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: center;
+
+        }
+      input[type="text"]{
+          outline: 1px solid #f00;
+          width: 320px;
+          height: 100%;
+          border: none;
+        }
+    }//fieldset
+  }//search
 }//aside.blogAside
