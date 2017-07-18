@@ -115,16 +115,17 @@ aside.blogAside{
     height: 30px;
     margin: 0 auto;
     position: relative;top: 19px;
+    margin-bottom: 30px;
     fieldset{
       height: 100%;
-      outline: 1px solid #00F;
+      outline: 1px solid #555;
       border: none;
       // input.search_blog
 
       input[type="submit"]{
         width: 40px;
         height: 30px;
-        background-color: red;
+        background-color: none;
         border: none;
         font-size: 0;
         background-image: url(../images/search-icon.png);
@@ -141,4 +142,26 @@ aside.blogAside{
         }
     }//fieldset
   }//search
+  .categorise{
+      width: 360px;
+      height: 236px;
+      outline: 1px solid #00f;
+      background-color: #fafafa;
+      text-align: center;
+  }//categorise
+  .title_cate{
+      width: 100%;
+      border-bottom: 1px solid @main-color;
+      color: @main-color;
+      padding: 14px 0;
+  }//title_cate
+  .list_cate{
+    .left_list{
+        ol{
+            li{
+                font-size: 14px;
+            }
+        }
+    }//left_list
+  }//list_cate
 }//aside.blogAside
