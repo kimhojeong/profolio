@@ -1760,10 +1760,16 @@ aside.blogAside .blog_tags .title_tags {
   font-size: 18px;
   text-transform: uppercase;
 }
-/* line 242, assets\less\blog.less */
+/* line 241, assets\less\blog.less */
+aside.blogAside .blog_tags div {
+  padding: 25px 12px;
+}
+/* line 243, assets\less\blog.less */
 aside.blogAside .blog_tags div span {
   font-size: 18px;
   color: #666260;
+  padding: 0 10px 10px 5px;
+  display: inline-block;
 }
 /* line 1, assets\less\franchise.less */
 html.franchiseHtml,
